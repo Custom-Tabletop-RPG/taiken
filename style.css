@@ -1,0 +1,43 @@
+:root {
+  --theme-color-1: #7367f0;
+  --theme-color-2: #ce9ffc;
+  --theme-color-back: rgb(30, 30, 30);
+  --theme-color-back-2: rgb(60, 60, 60);
+  --theme-color-fore: whitesmoke;
+}
+
+a:not(:hover) {
+  color: var(--theme-color-1) !important;
+}
+
+a:hover {
+  color: var(--theme-color-2) !important;
+}
+
+body {
+  background-color: var(--theme-color-back) !important;
+  color: var(--theme-color-fore) !important;
+}
+
+.markdown-body img {
+  background-color: unset !important;
+}
+
+.markdown-body h1 {
+  border-bottom-color: var(--theme-color-back-2) !important;
+}
+
+.markdown-body .highlight pre,
+.markdown-body pre,
+.markdown-body code,
+.markdown-body tt {
+  background-color: var(--theme-color-back-2) !important;
+}
+
+.markdown-body table tr {
+  background-color: var(--theme-color-back) !important;
+}
+
+.markdown-body table tr:nth-child(2n) {
+  background-color: var(--theme-color-back-2) !important;
+}
